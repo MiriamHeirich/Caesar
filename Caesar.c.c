@@ -28,7 +28,7 @@ int main(int argc, string argv[])
         printf("Usage: ./caesar key\n");
         return 1;
     }
-
+//test
     string key = argv[1];
 
     for (int i = 0; key[i] != '\0'; i++)
